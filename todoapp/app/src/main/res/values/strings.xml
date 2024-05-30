@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TO-DO</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_zero">ZeroActivity</string>
+    <string name="to_do_list">Manage Your Everyday\nTask List</string>
+    <string name="str2">Get out the clutter in your mind. Write down all of those running to-do lists, hope, goals and tasks you have been putting of. Get them, categorize them, and then start prioritizing.</string>
+    <string name="title_activity_one">OneActivity</string>
+</resources>

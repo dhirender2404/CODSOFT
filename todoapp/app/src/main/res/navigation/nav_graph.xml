@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/addTodoFragment"
+        android:name="com.example.todoapp.fragments.AddTodoFragment"
+        android:label="AddTodoFragment" >
+        <action
+            android:id="@+id/action_addTodoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.todoapp.fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_addTodoFragment"
+            app:destination="@id/addTodoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_editTodoFragment"
+            app:destination="@id/editTodoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editTodoFragment"
+        android:name="com.example.todoapp.fragments.EditTodoFragment"
+        android:label="EditTodoFragment" >
+        <action
+            android:id="@+id/action_editTodoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+
+        <argument
+            android:name="todo"
+            app:argType="com.example.todoapp.model.Todo"
+            app:nullable="true" />
+    </fragment>
+</navigation>

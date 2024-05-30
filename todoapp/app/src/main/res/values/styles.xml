@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.Todoapp" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#b31617</item>
+        <item name="colorPrimaryVariant">#b31617</item>
+        <item name="colorOnPrimary">#f5f1ee</item>
+        <item name="colorAccent">#b31617</item>
+        <item name="android:textColorPrimary">#b31617</item>
+        <item name="android:windowBackground">#ffffff</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#b31617</item>
+        <item name="colorSecondaryVariant">#b31617</item>
+        <item name="colorOnSecondary">#f5f1ee</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>
